@@ -1,0 +1,102 @@
+
+$box-border-radius:10px;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  color: #ffeeee;
+  box-sizing: border-box;
+}
+
+li{
+  list-style: none;
+  margin:10px 0;
+}
+
+.forecast-wrapper{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color:#272E37;
+  overflow:hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.forecast-container{
+  width:600px;
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 50px 0;
+}
+
+.input-border{
+  border-radius: 5px;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 2px 5px -1px, rgba(255, 255, 255, 0.3) 0px 1px 3px -1px;
+  padding: 5px 15px;
+  background-color: transparent;
+  border:none;
+}
+
+.search-input-container{
+  display: flex;
+  input{
+    margin-right:20px;
+  }
+  button{
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}
+
+
+.error-message,
+.forecast-list,
+.loading{
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  border-radius:$box-border-radius;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.current-location-forecast{
+  height: 500px;
+  width: 300px;
+  background:no-repeat url("../images/background-blur.jpg");
+
+  background-size: cover;
+  border-radius:$box-border-radius;
+  .forecast-list{
+
+    ul{
+      margin-top: 50px;
+      padding: 0;
+    }
+  }
+}
+
+.search-history-container{
+  position: relative;
+  top:30px;
+  height: 500px;
+  width: 300px;
+  background-color: #273c57;
+  border-radius: $box-border-radius;
+  li{
+    &:hover{
+      cursor: pointer;
+      color: white;
+    }
+  }
+}
