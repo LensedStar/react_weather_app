@@ -1,6 +1,6 @@
 # React Weather App
 
-A simple and responsive weather application built using React, TypeScript, and Vite. This app fetches weather data from an external API and displays it in a user-friendly interface.
+A simple weather application built using React, TypeScript, and Vite. This app fetches weather data from an external API and displays it in a user-friendly interface.
 
 ## Live Demo
 
@@ -32,7 +32,7 @@ The weather data is fetched from the [OpenWeather API](https://openweathermap.or
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/react-weather-app.git
+   git clone https://github.com/LensedStar/react_weather_app.git
    cd react-weather-app
 2. Install the dependencies:
 npm install
