@@ -8,7 +8,11 @@ A simple and responsive weather application built using React, TypeScript, and V
   
 ## Description
 
-The React Weather App allows users to search for weather information in different cities around the world. It displays current weather conditions such as temperature, humidity, wind speed, and a short description of the weather. The app is built using React with TypeScript for type safety, and Vite as the build tool for fast development and optimized production builds.
+The React Weather App allows users to search for weather information in different cities around the world. It displays current weather conditions such as temperature,feels like temperature, minimum temperature, max temperature and humidity. 
+The app is built using React with TypeScript for type safety, and Vite as the build tool for fast development and optimized production
+builds.
+
+The weather data is fetched from the [OpenWeather API](https://openweathermap.org/api), ensuring accurate and up-to-date information.
 
 ## Features
 
